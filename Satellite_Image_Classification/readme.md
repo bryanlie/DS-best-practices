@@ -5,6 +5,21 @@ Epoch 20/20:
 Train Loss: 0.1839, Train Acc: 93.87%
 Test Loss: 0.2441, Test Acc: 92.02%
 
+## How to improve the performance
+
+To optimize the neural network and improve the accuracy of the image classification model, we can make several modifications to the existing code. Here are some suggestions:
+
+  - Use a more advanced architecture:
+  Replace the CustomNet with a pre-trained model like ResNet or EfficientNet, which have proven to be highly effective for image classification tasks.
+  - Implement learning rate scheduling:
+  Use a learning rate scheduler to adjust the learning rate during training, which can help in achieving better convergence and higher accuracy.
+  - Add more data augmentation:
+  Expand the data augmentation techniques to increase the diversity of the training data.
+  - Increase the number of epochs:
+  Train the model for more epochs to allow it to learn more complex features.
+  - Use cross-validation:
+  Implement k-fold cross-validation to get a more robust evaluation of the model's performance.
+
 ResNet Test Acc: 98.02%
 
 ## Dataset
