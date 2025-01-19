@@ -27,7 +27,7 @@ TRAINING_DESTINATION = 'training_images'
 TESTING_DESTINATION = 'testing_images'
 BATCH_SIZE = 64
 NUM_WORKERS = 2
-NUM_EPOCHS = 5
+NUM_EPOCHS = 20
 
 # Class mapping
 CLASS_MAPPING = {
